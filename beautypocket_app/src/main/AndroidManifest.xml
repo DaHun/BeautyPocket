@@ -20,11 +20,11 @@
         //구글지도
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAke6R3f4g9HvQ2ERaOIIF3d3n7sumbd3Q" />
+            android:value="" />
         //카카오
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="@string/kakao_app_key" />
+            android:value="" />
 
         <activity
             android:name=".main.MainActivity"
