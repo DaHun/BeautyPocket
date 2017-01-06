@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BeautyPocket</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_modify">modify</string>
+    <string name="action_delete">delete</string>
+    <string name="action_add">add</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="title_activity_brand_select">BrandSelect</string>
+    <string name="title_activity_sale_detail">SaleDetailActivity</string>
+    <string name="title_activity_sale_calendar">SaleCalendarActivity</string>
+    <string name="title_activity_wishlist_brand">WishlistBrand</string>
+    <string name="title_activity_sale_list">SaleListActivity</string>
+    <string name="title_activity_more">MoreActivity</string>
+</resources>

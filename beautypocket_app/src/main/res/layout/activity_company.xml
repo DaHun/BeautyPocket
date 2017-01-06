@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.sopt.BeautyPocket.more.Company">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar_textview"
+                android:text="BeautyPocket"
+                android:layout_gravity="center"
+                android:textColor="#82B1F2"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/btn_up_home14"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:onClick="top_click14">
+            <ImageView
+                android:background="@drawable/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btn_up_wish14"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:onClick="top_click14">
+            <ImageView
+                android:background="@drawable/wish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btn_up_mapall14"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:onClick="top_click14">
+            <ImageView
+                android:background="@drawable/whereami"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btn_up_calendar14"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:onClick="top_click14">
+            <ImageView
+                android:background="@drawable/calendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btn_up_more14"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:onClick="top_click14">
+            <ImageView
+                android:background="@drawable/tab_more_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/mainblue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#ebf3ff">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:text="&lt;회사 정보&gt;\r\n\r\n\r\n[회사 소개]\r\n뷰티포켓(Beauty Pocket)은 '아름다움을 담는 단 한 번의 터치' 라는 회사의 지침을 따라, 보다 쉽고 빠르게 소비자들이 원하는 로드샵 화장품을 구매할 수 있도록 도와주는 징검다리 역할을 합니다.\r\n\r\n[회사 비전]\r\n현재 국내 로드샵 위시리스트 앱 런칭을 시작으로, 향후 글로벌 시장에서의 K Beauty 열풍에 발 맞춰 성장할 것입니다.\r\n\r\n[채용 안내]\r\n채용은 보통 상반기/하반기로 나누어 이루어지며, 프로세스는 다음과 같습니다.\r\n지원서 접수 - 서류 전형 - 면접 - 결과 발표"/>
+            </ScrollView>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

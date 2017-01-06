@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:gravity="center_vertical">
+        <FrameLayout
+            android:layout_marginLeft="24dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="1dp"
+            android:background="@drawable/roundback">
+        <ImageView
+
+            android:id="@+id/imageview_brand"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textview_brandname"
+                android:textSize="15dp"
+                android:textColor="#5b5959"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_marginRight="18dp"
+            android:id="@+id/btn_brandmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/brand_place"/>
+    </LinearLayout>
+    <View
+        android:background="@color/mainblue"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"/>
+
+
+</LinearLayout>
