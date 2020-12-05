@@ -1,0 +1,8 @@
+{
+  "host" : "aws-rds.coozifauxgjn.ap-northeast-2.rds.amazonaws.com",
+  "port" : 3306,
+  "user" : "rohn",
+  "password" : "rohntour!!",
+  "database" : "beautypocket",
+  "connectionLimit" : 10
+}
